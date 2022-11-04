@@ -24,8 +24,8 @@ function App() {
           </Routes>
         </Navbar>
       </Router>
-      <ItemListeContainer greeting={"este es el greeting"}/>
-      <CartWidget/>
+      <ItemListeContainer greeting={"este es el greeting"} />
+      <CartWidget />
     </div>
   );
 }

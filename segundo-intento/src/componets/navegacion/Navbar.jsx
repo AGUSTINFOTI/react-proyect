@@ -1,12 +1,12 @@
-import React from "react"
-import {Link} from "react-router-dom"
-export default function Navbar () {
+import React from "react";
+import { Link } from "react-router-dom";
+export default function Navbar() {
   return (
     <div>
       <nav className="navbar navbar-expand-lg bg-light">
         <div className="container-fluid">
-          <Link to='/'>
-            <img src='./terramias.jpeg' width={100}/>
+          <Link to="/">
+            <img src="./terramias.jpeg" width={100} />
           </Link>
           <button
             className="navbar-toggler"
@@ -22,13 +22,19 @@ export default function Navbar () {
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav mx-auto ">
               <li className="nav-item">
-                <Link className="nav-link " to='/' >Inicio </Link>
+                <Link className="nav-link " to="/">
+                  Inicio{" "}
+                </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to='/Ingreso'>Ingreso</Link>
+                <Link className="nav-link" to="/Ingreso">
+                  Ingreso
+                </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to='/Items'>Items</Link>
+                <Link className="nav-link" to="/Items">
+                  Items
+                </Link>
               </li>
             </ul>
           </div>
